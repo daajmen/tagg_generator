@@ -1,0 +1,378 @@
+"startwith";"contains";"endswith";"find";"replace";"rawmin";"rawmax";"engmin";"engmax";"unit";"format";"description";"alarmoption";"trendoption"
+
+;_farapressure;"";"_farapressure";"";;;;;"";"";"";;
+
+;;"_AirHandlingFanConfig.offDelayS";"_AirHandlingFanConfig.offDelayS";"_SP5";;;;;"s";"";"Frånslagsfördröjning";;
+;;"_AirHandlingFanConfig.onDelayS";"_AirHandlingFanConfig.onDelayS";"_SP6";;;;;"s";"";"Tillslagsfördröjning";;
+;;"_AirHandlingFanConfig.alarmDelayS";"_AirHandlingFanConfig.alarmDelayS";"_AD";;;;;"s";"";"Larmfördröjning";;
+
+;;"_AlarmTimerConfig.alarmDelayU";"_AlarmTimerConfig.alarmDelayU";"_AD";;;;;"s";"";"Larmfördröjning";;
+
+;;"_LowAlarmConfig.alarmDelayU";"_LowAlarmConfig.alarmDelayU";"_LAD";;;;;"s";"";"Larmfördröjning";;
+;;"_LowAlarmConfig.lower";"_LowAlarmConfig.lower";"_ALL";;;;;"";"";"Larmgräns låg";;
+
+;;"_HighAlarmConfig.alarmDelayU";"_HighAlarmConfig.alarmDelayU";"_HAD";;;;;"s";"";"Larmfördröjning";;
+;;"_HighAlarmConfig.upper";"_HighAlarmConfig.upper";"_AHL";;;;;"";"";"Larmgräns hög";;
+
+;;"_DeviationAlarmConfig.alarmDelayU";"_DeviationAlarmConfig.alarmDelayU";"_AD";;;;;"s";"";"Larmfördröjning";;
+;;"_DeviationAlarmConfig.upper";"_DeviationAlarmConfig.upper";"_ADL1";;;;;"";"0.0";"Larmgräns Avvikelse övre gräns";;
+;;"_DeviationAlarmConfig.lower";"_DeviationAlarmConfig.lower";"_ADL2";;;;;"";"0.0";"Larmgräns Avvikelse nedre gräns";;
+
+
+;;"_AntiFreezeControllerConfig.freezeDangerLimit";"_AntiFreezeControllerConfig.freezeDangerLimit";"_SP1";;;;;"°C";"0.0";"Fryssvaktsgräns";;
+;;"_AntiFreezeControllerConfig.freezeDangerMargin";"_AntiFreezeControllerConfig.freezeDangerMargin";"_SP2";;;;;"°C";"0.0";"Säkerhetsmarginal för normaldrift beroende på frysvaktsgräns";;
+;;"_AntiFreezeControllerConfig.standbyTemperatureSetpoint";"_AntiFreezeControllerConfig.standbyTemperatureSetpoint";"_SP3";;;;;"°C";"0.0";"Börvärde varmhållning vid standby";;
+
+
+
+;;"_BasicControllerConfig.pfactor";"_BasicControllerConfig.pfactor";"_P";;;;;"";"0.0";"Pfaktor";;
+;;"_BasicControllerConfig.itimeS";"_BasicControllerConfig.itimeS";"_I";;;;;"";"0";"I-tid";;
+;;"_BasicControllerConfig.periodS";"_BasicControllerConfig.periodS";"_S";;;;;"s";"0";"Sampletid";;
+
+
+;;"_BasicMonitoredControllerConfig.pfactor";"_BasicMonitoredControllerConfig.pfactor";"_P";;;;;"";"0.0";"Pfaktor";;
+;;"_BasicMonitoredControllerConfig.itimeS";"_BasicMonitoredControllerConfig.itimeS";"_I";;;;;"";"0";"I-tid";;
+;;"_BasicMonitoredControllerConfig.alarmDelayU";"_BasicMonitoredControllerConfig.alarmDelayU";"_AD";;;;;"s";"";"Larmfördröjning";;
+;;"_BasicMonitoredControllerConfig.upper";"_BasicMonitoredControllerConfig.upper";"_ADL1";;;;;"";"0.0";"Larmgräns Avvikelse övre gräns";;
+;;"_BasicMonitoredControllerConfig.lower";"_BasicMonitoredControllerConfig.lower";"_ADL2";;;;;"";"0.0";"Larmgräns Avvikelse nedre gräns";;
+
+
+
+;;"_CirculationPumpConfig.offDelayS";"_CirculationPumpConfig.offDelayS";"_SP5";;;;;"s";"";"Frånslagsfördröjning";;
+;;"_CirculationPumpConfig.onDelayS";"_CirculationPumpConfig.onDelayS";"_SP6";;;;;"s";"";"Tillslagsfördröjning";;
+;;"_CirculationPumpConfig.alarmDelayS";"_CirculationPumpConfig.alarmDelayS";"_AD";;;;;"s";"";"Larmfördröjning";;
+;;"_CirculationPumpConfig.exerciseS";"_CirculationPumpConfig.exerciseS";"_SP7";;;;;"s";"";"Motionsperiod";;
+
+
+;;"_HeatPumpConfig.odtLimit";"_HeatPumpConfig.odtLimit";"_SP1";;;;;"°C";"0.0";"Startgräns utetemp.";;
+;;"_HeatPumpConfig.odtHyst";"_HeatPumpConfig.odtHyst";"_SP2";;;;;"°C";"0.0";"Stoppgräns hysteres utetemp.";;
+;;"_HeatPumpConfig.odtLowerLimit";"_HeatPumpConfig.odtLowerLimit";"_SP3";;;;;"°C";"0.0";"Startgräns för direktstart pump";;
+;;"_HeatPumpConfig.offDelayS";"_HeatPumpConfig.offDelayS";"_SP5";;;;;"s";"";"Frånslagsfördröjning pump";;
+;;"_HeatPumpConfig.onDelayS";"_HeatPumpConfig.onDelayS";"_SP6";;;;;"s";"";"Tillslagsfördröjning pump";;
+;;"_HeatPumpConfig.alarmDelayS";"_HeatPumpConfig.alarmDelayS";"_AD";;;;;"s";"";"Larmfördröjning";;
+;;"_HeatPumpConfig.exerciseS";"_HeatPumpConfig.exerciseS";"_SP7";;;;;"s";"";"Motionsperiod";;
+;;"_HeatPumpConfig.OutdoorOffDelayM";"_HeatPumpConfig.OutdoorOffDelayM";"_SP8";;;;;"min";"";"Frånslagsför. utetemp. villkor";;
+;;"_HeatPumpConfig.OutdoorOnDelayM";"_HeatPumpConfig.OutdoorOnDelayM";"_SP9";;;;;"min";"";"Tillslagsför. utetemp. villkor";;
+
+;;"_OutdoorPumpControlConditionConfig.odtLimitStart";"_OutdoorPumpControlConditionConfig.odtLimitStart";"_SP1";;;;;"°C";"0.0";"Startgräns utetemp.";;
+;;"_OutdoorPumpControlConditionConfig.odtLimitStop";"_OutdoorPumpControlConditionConfig.odtLimitStop";"_SP2";;;;;"°C";"0.0";"Stoppgräns utetemp.";;
+;;"_OutdoorPumpControlConditionConfig.odtLowerLimit";"_OutdoorPumpControlConditionConfig.odtLowerLimit";"_SP3";;;;;"°C";"0.0";"Startgräns för direktstart pump";;
+;;"_OutdoorPumpControlConditionConfig.OutdoorOffDelayM";"_OutdoorPumpControlConditionConfig.OutdoorOffDelayM";"_SP8";;;;;"min";"";"Frånslagsför. utetemp. villkor";;
+;;"_OutdoorPumpControlConditionConfig.OutdoorOnDelayM";"_OutdoorPumpControlConditionConfig.OutdoorOnDelayM";"_SP9";;;;;"min";"";"Tillslagsför. utetemp. villkor";;
+
+
+;;"_OutdoorCoolPumpControlConditionConfig.odtLimitStart";"_OutdoorCoolPumpControlConditionConfig.odtLimitStart";"_SP1";;;;;"°C";"0.0";"Startgräns utetemp.";;
+
+
+
+
+;;"_CrosslockConfig.supplyFanDelayS";"_CrosslockConfig.supplyFanDelayS";"_SP5";;;;;"s";"";"Uppstartsfördröjning tilluftsfläkt";;
+;;"_CrosslockConfig.errorDelayS";"_CrosslockConfig.errorDelayS";"_AD";;;;;"s";"";"Larmfördröjning Korsvisförreglering";;
+
+;;"_DigitalDamperConfig.offDelayS";"_DigitalDamperConfig.offDelayS";"_SP5";;;;;"s";"";"Frånslagsfördröjning";;
+;;"_DigitalDamperConfig.onDelayS";"_DigitalDamperConfig.onDelayS";"_SP6";;;;;"s";"";"Tillslagsfördröjning";;
+
+;;"_FireDamperConfig.openAlarmDelay";"_FireDamperConfig.openAlarmDelay";"_AD1";;;;;"s";"";"Larmfördröjning konfikt öppetindikering";;
+;;"_FireDamperConfig.closeAlarmDelay";"_FireDamperConfig.closeAlarmDelay";"_AD2";;;;;"s";"";"Larmfördröjning konfikt stängtindikering";;
+
+;;"_HeatCoilConfig.offDelayS";"_HeatCoilConfig.offDelayS";"_SP6";;;;;"s";"";"Frånslagsfördröjning";;
+;;"_HeatCoilConfig.onDelayS";"_HeatCoilConfig.onDelayS";"_SP7";;;;;"s";"";"Tillslagsfördröjning";;
+;;"_HeatCoilConfig.alarmDelayS";"_HeatCoilConfig.alarmDelayS";"_AD";;;;;"s";"";"Larmfördröjning";;
+;;"_HeatCoilConfig.freezeDangerLimit";"_HeatCoilConfig.freezeDangerLimit";"_SP1";;;;;"°C";"0.0";"Fryssvaktsgräns";;
+;;"_HeatCoilConfig.freezeDangerMargin";"_HeatCoilConfig.freezeDangerMargin";"_SP2";;;;;"°C";"0.0";"Temperature margin for normal operation";;
+;;"_HeatCoilConfig.standbyTemperatureSetpoint";"_HeatCoilConfig.standbyTemperatureSetpoint";"_SP3";;;;;"°C";"0.0";"Börvärde varmhållning vid standby";;
+;;"_HeatCoilConfig.odtLimit";"_HeatCoilConfig.odtLimit";"_SP4";;;;;"°C";"0.0";"Startgräns utetemp.";;
+;;"_HeatCoilConfig.odtHyst";"_HeatCoilConfig.odtHyst";"_SP5";;;;;"°C";"0.0";"Stoppgräns utetemp.";;
+
+
+;;"_NightCoolConfig.roomLimit";"_NightCoolConfig.roomLimit";"_SP2";;;;;"°C";"0.0";"Startgräns rumstemperatur nattkyla";;
+;;"_NightCoolConfig.roomHyst";"_NightCoolConfig.roomHyst";"_SP3";;;;;"°C";"0.0";"Stopphyst. rumstemperatur nattkyla";;
+;;"_NightCoolConfig.odtLimit";"_NightCoolConfig.odtLimit";"_SP4";;;;;"°C";"0.0";"Startgräns utetemp.";;
+;;"_NightCoolConfig.odtHyst";"_NightCoolConfig.odtHyst";"_SP5";;;;;"°C";"0.0";"Stopphysteres utetemp.";;
+;;"_NightCoolConfig.minTempDiff";"_NightCoolConfig.minTempDiff";"_SP6";;;;;"°C";"0.0";"Mingräns temperatur mellan rum och utomhustemp.";;
+;;"_NightCoolConfig.heatBlockPeriodH";"_NightCoolConfig.heatBlockPeriodH";"_SP8";;;;;"tim";"0.0";"Antal timmar blockering nattkyla";;
+
+;;"_ScheduleWeekdaysConfig.startMon.scaledTime";"_ScheduleWeekdaysConfig.startMon.scaledTime";"_CT1";;;;;"hh:mm";"00:00";"Måndag";;
+;;"_ScheduleWeekdaysConfig.startTue.scaledTime";"_ScheduleWeekdaysConfig.startTue.scaledTime";"_CT2";;;;;"hh:mm";"00:00";"Tisdag";;
+;;"_ScheduleWeekdaysConfig.startWed.scaledTime";"_ScheduleWeekdaysConfig.startWed.scaledTime";"_CT3";;;;;"hh:mm";"00:00";"Onsdag";;
+;;"_ScheduleWeekdaysConfig.startThu.scaledTime";"_ScheduleWeekdaysConfig.startThu.scaledTime";"_CT4";;;;;"hh:mm";"00:00";"Torsdag";;
+;;"_ScheduleWeekdaysConfig.startFri.scaledTime";"_ScheduleWeekdaysConfig.startFri.scaledTime";"_CT5";;;;;"hh:mm";"00:00";"Fredag";;
+;;"_ScheduleWeekdaysConfig.startSat.scaledTime";"_ScheduleWeekdaysConfig.startSat.scaledTime";"_CT6";;;;;"hh:mm";"00:00";"Lördag";;
+;;"_ScheduleWeekdaysConfig.startSun.scaledTime";"_ScheduleWeekdaysConfig.startSun.scaledTime";"_CT7";;;;;"hh:mm";"00:00";"Söndag";;
+
+;;"_ScheduleWeekdaysConfig.stopMon.scaledTime";"_ScheduleWeekdaysConfig.stopMon.scaledTime";"_CF1";;;;;"hh:mm";"00:00";"Måndag";;
+;;"_ScheduleWeekdaysConfig.stopTue.scaledTime";"_ScheduleWeekdaysConfig.stopTue.scaledTime";"_CF2";;;;;"hh:mm";"00:00";"Tisdag";;
+;;"_ScheduleWeekdaysConfig.stopWed.scaledTime";"_ScheduleWeekdaysConfig.stopWed.scaledTime";"_CF3";;;;;"hh:mm";"00:00";"Onsdag";;
+;;"_ScheduleWeekdaysConfig.stopThu.scaledTime";"_ScheduleWeekdaysConfig.stopThu.scaledTime";"_CF4";;;;;"hh:mm";"00:00";"Torsdag";;
+;;"_ScheduleWeekdaysConfig.stopFri.scaledTime";"_ScheduleWeekdaysConfig.stopFri.scaledTime";"_CF5";;;;;"hh:mm";"00:00";"Fredag";;
+;;"_ScheduleWeekdaysConfig.stopSat.scaledTime";"_ScheduleWeekdaysConfig.stopSat.scaledTime";"_CF6";;;;;"hh:mm";"00:00";"Lördag";;
+;;"_ScheduleWeekdaysConfig.stopSun.scaledTime";"_ScheduleWeekdaysConfig.stopSun.scaledTime";"_CF7";;;;;"hh:mm";"00:00";"Söndag";;
+
+;;"_SingleFanConfig.offDelayS";"_SingleFanConfig.offDelayS";"_SP5";;;;;"s";"";"Frånslagsfördröjning";;
+;;"_SingleFanConfig.onDelayS";"_SingleFanConfig.onDelayS";"_SP6";;;;;"s";"";"Tillslagsfördröjning";;
+;;"_SingleFanConfig.alarmDelayS";"_SingleFanConfig.alarmDelayS";"_AD";;;;;"s";"";"Larmfördröjning";;
+
+
+;;"_CurveTemperatureConfig.x[1]";"_CurveTemperatureConfig.x[1]";"_X1";;;;;"°C";"0.0";"X-värde 1";;
+;;"_CurveTemperatureConfig.x[2]";"_CurveTemperatureConfig.x[2]";"_X2";;;;;"°C";"0.0";"X-värde 2";;
+;;"_CurveTemperatureConfig.x[3]";"_CurveTemperatureConfig.x[3]";"_X3";;;;;"°C";"0.0";"X-värde 3";;
+;;"_CurveTemperatureConfig.x[4]";"_CurveTemperatureConfig.x[4]";"_X4";;;;;"°C";"0.0";"X-värde 4";;
+;;"_CurveTemperatureConfig.x[5]";"_CurveTemperatureConfig.x[5]";"_X5";;;;;"°C";"0.0";"X-värde 5";;
+;;"_CurveTemperatureConfig.x[6]";"_CurveTemperatureConfig.x[6]";"_X6";;;;;"°C";"0.0";"X-värde 6";;
+;;"_CurveTemperatureConfig.x[7]";"_CurveTemperatureConfig.x[7]";"_X7";;;;;"°C";"0.0";"X-värde 7";;
+;;"_CurveTemperatureConfig.x[8]";"_CurveTemperatureConfig.x[8]";"_X8";;;;;"°C";"0.0";"X-värde 8";;
+;;"_CurveTemperatureConfig.x[9]";"_CurveTemperatureConfig.x[9]";"_X9";;;;;"°C";"0.0";"X-värde 9";;
+
+;;"_CurveTemperatureConfig.y[1]";"_CurveTemperatureConfig.y[1]";"_Y1";;;;;"°C";"0.0";"Y-värde 1";;
+;;"_CurveTemperatureConfig.y[2]";"_CurveTemperatureConfig.y[2]";"_Y2";;;;;"°C";"0.0";"Y-värde 2";;
+;;"_CurveTemperatureConfig.y[3]";"_CurveTemperatureConfig.y[3]";"_Y3";;;;;"°C";"0.0";"Y-värde 3";;
+;;"_CurveTemperatureConfig.y[4]";"_CurveTemperatureConfig.y[4]";"_Y4";;;;;"°C";"0.0";"Y-värde 4";;
+;;"_CurveTemperatureConfig.y[5]";"_CurveTemperatureConfig.y[5]";"_Y5";;;;;"°C";"0.0";"Y-värde 5";;
+;;"_CurveTemperatureConfig.y[6]";"_CurveTemperatureConfig.y[6]";"_Y6";;;;;"°C";"0.0";"Y-värde 6";;
+;;"_CurveTemperatureConfig.y[7]";"_CurveTemperatureConfig.y[7]";"_Y7";;;;;"°C";"0.0";"Y-värde 7";;
+;;"_CurveTemperatureConfig.y[8]";"_CurveTemperatureConfig.y[8]";"_Y8";;;;;"°C";"0.0";"Y-värde 8";;
+;;"_CurveTemperatureConfig.y[9]";"_CurveTemperatureConfig.y[9]";"_Y9";;;;;"°C";"0.0";"Y-värde 9";;
+
+;;"_CurveTemperatureConfig.setpointMin";"_CurveTemperatureConfig.setpointMin";"_MIN";;;;;"°C";"0.0";"Minbegränsning";;
+;;"_CurveTemperatureConfig.setpointMax";"_CurveTemperatureConfig.setpointMax";"_MAX";;;;;"°C";"0.0";"Maxbegränsning";;
+
+
+;;"_CurvePressureConfig.x[1]";"_CurvePressureConfig.x[1]";"_X1";;;;;"°C";"0.0";"X-värde 1";;
+;;"_CurvePressureConfig.x[2]";"_CurvePressureConfig.x[2]";"_X2";;;;;"°C";"0.0";"X-värde 2";;
+;;"_CurvePressureConfig.x[3]";"_CurvePressureConfig.x[3]";"_X3";;;;;"°C";"0.0";"X-värde 3";;
+;;"_CurvePressureConfig.x[4]";"_CurvePressureConfig.x[4]";"_X4";;;;;"°C";"0.0";"X-värde 4";;
+;;"_CurvePressureConfig.x[5]";"_CurvePressureConfig.x[5]";"_X5";;;;;"°C";"0.0";"X-värde 5";;
+;;"_CurvePressureConfig.x[6]";"_CurvePressureConfig.x[6]";"_X6";;;;;"°C";"0.0";"X-värde 6";;
+;;"_CurvePressureConfig.x[7]";"_CurvePressureConfig.x[7]";"_X7";;;;;"°C";"0.0";"X-värde 7";;
+;;"_CurvePressureConfig.x[8]";"_CurvePressureConfig.x[8]";"_X8";;;;;"°C";"0.0";"X-värde 8";;
+;;"_CurvePressureConfig.x[9]";"_CurvePressureConfig.x[9]";"_X9";;;;;"°C";"0.0";"X-värde 9";;
+
+;;"_CurvePressureConfig.y[1]";"_CurvePressureConfig.y[1]";"_Y1";;;;;"pa";"0";"Y-värde 1";;
+;;"_CurvePressureConfig.y[2]";"_CurvePressureConfig.y[2]";"_Y2";;;;;"pa";"0";"Y-värde 2";;
+;;"_CurvePressureConfig.y[3]";"_CurvePressureConfig.y[3]";"_Y3";;;;;"pa";"0";"Y-värde 3";;
+;;"_CurvePressureConfig.y[4]";"_CurvePressureConfig.y[4]";"_Y4";;;;;"pa";"0";"Y-värde 4";;
+;;"_CurvePressureConfig.y[5]";"_CurvePressureConfig.y[5]";"_Y5";;;;;"pa";"0";"Y-värde 5";;
+;;"_CurvePressureConfig.y[6]";"_CurvePressureConfig.y[6]";"_Y6";;;;;"pa";"0";"Y-värde 6";;
+;;"_CurvePressureConfig.y[7]";"_CurvePressureConfig.y[7]";"_Y7";;;;;"°C";"0";"X-värde 7";;
+;;"_CurvePressureConfig.y[8]";"_CurvePressureConfig.y[8]";"_Y8";;;;;"°C";"0";"X-värde 8";;
+;;"_CurvePressureConfig.y[9]";"_CurvePressureConfig.y[9]";"_Y9";;;;;"°C";"0";"X-värde 9";;
+
+;;"_CurvePressureConfig.setpointMin";"_CurvePressureConfig.setpointMin";"_MIN";;;;;"pa";"0";"Minbegränsning";;
+;;"_CurvePressureConfig.setpointMax";"_CurvePressureConfig.setpointMax";"_MAX";;;;;"pa";"0";"Maxbegränsning";;
+
+
+;;"_CurvePowerConfig.x[1]";"_CurvePowerConfig.x[1]";"_X1";;;;;"°C";"0.0";"X-värde 1";;
+;;"_CurvePowerConfig.x[2]";"_CurvePowerConfig.x[2]";"_X2";;;;;"°C";"0.0";"X-värde 2";;
+;;"_CurvePowerConfig.x[3]";"_CurvePowerConfig.x[3]";"_X3";;;;;"°C";"0.0";"X-värde 3";;
+;;"_CurvePowerConfig.x[4]";"_CurvePowerConfig.x[4]";"_X4";;;;;"°C";"0.0";"X-värde 4";;
+;;"_CurvePowerConfig.x[5]";"_CurvePowerConfig.x[5]";"_X5";;;;;"°C";"0.0";"X-värde 5";;
+;;"_CurvePowerConfig.x[6]";"_CurvePowerConfig.x[6]";"_X6";;;;;"°C";"0.0";"X-värde 6";;
+;;"_CurvePowerConfig.x[7]";"_CurvePowerConfig.x[7]";"_X7";;;;;"°C";"0.0";"X-värde 7";;
+;;"_CurvePowerConfig.x[8]";"_CurvePowerConfig.x[8]";"_X8";;;;;"°C";"0.0";"X-värde 8";;
+;;"_CurvePowerConfig.x[9]";"_CurvePowerConfig.x[9]";"_X9";;;;;"°C";"0.0";"X-värde 9";;
+
+;;"_CurvePowerConfig.y[1]";"_CurvePowerConfig.y[1]";"_Y1";;;;;"kW";"0";"Y-värde 1";;
+;;"_CurvePowerConfig.y[2]";"_CurvePowerConfig.y[2]";"_Y2";;;;;"kW";"0";"Y-värde 2";;
+;;"_CurvePowerConfig.y[3]";"_CurvePowerConfig.y[3]";"_Y3";;;;;"kW";"0";"Y-värde 3";;
+;;"_CurvePowerConfig.y[4]";"_CurvePowerConfig.y[4]";"_Y4";;;;;"kW";"0";"Y-värde 4";;
+;;"_CurvePowerConfig.y[5]";"_CurvePowerConfig.y[5]";"_Y5";;;;;"kW";"0";"Y-värde 5";;
+;;"_CurvePowerConfig.y[6]";"_CurvePowerConfig.y[6]";"_Y6";;;;;"kW";"0";"Y-värde 6";;
+;;"_CurvePowerConfig.y[7]";"_CurvePowerConfig.y[7]";"_Y7";;;;;"kW";"0";"Y-värde 7";;
+;;"_CurvePowerConfig.y[8]";"_CurvePowerConfig.y[8]";"_Y8";;;;;"kW";"0";"Y-värde 8";;
+;;"_CurvePowerConfig.y[9]";"_CurvePowerConfig.y[9]";"_Y9";;;;;"kW";"0";"Y-värde 9";;
+
+
+
+;;"_TimerDual.output";"_TimerDual.output";"_V";;;;;"";"";"Timer aktiv";;
+;;"_TimerDual.remainingTime";"_TimerDual.remainingTime";"_PV";;;;;"";"";"Tid kvar";;
+
+;;"_TimerConfig.DelayU";"_TimerConfig.DelayU";"_SP1";;;;;"h";"";"Frånslagsfördröjning timer";;
+
+
+;;"_AirFlowConfig.kFactor";"_AirFlowConfig.kFactor";"_SP1";;;;;"k faktor";"0.000";"K-faktor ";;
+
+
+;;"_AlarmTimer.trigger";"_AlarmTimer.trigger";"_V3";;;;;"";"";"Larmindikering";;
+;;"_AlarmTimer.alarmDelayU";"_AlarmTimer.alarmDelayU";"_AD";;;;;"s";;"Larmfördröjning";;
+
+;;"_AlarmTimerHigh.trigger";"_AlarmTimer.trigger";"_V3";;;;;"";"";"Larmindikering";;
+;;"_AlarmTimerHigh.alarmDelayU";"_AlarmTimer.alarmDelayU";"_AD";;;;;"s";;"Larmfördröjning";;
+
+
+
+;;"_AnalogAirHandlingFan.run";"_AnalogAirHandlingFan.run";"_CMD";;;;;"";"";"Startorder";;
+;;"_AnalogAirHandlingFan.runFeedback";"_AnalogAirHandlingFan.runFeedback";"_V";;;;;"";"";"Driftindikering";;
+;;"_AnalogAirHandlingFan.manualSwitch";"_AnalogAirHandlingFan.manualSwitch";"_AUT";;;;;"";"";"0 = OFF, 1 = ON, 2 = AUT";;
+;;"_AnalogAirHandlingFan.output";"_AnalogAirHandlingFan.output";"_OP";;;;;"%"";"0";"Utsignal";;
+;;"_AnalogAirHandlingFan.manualControl";"_AnalogAirHandlingFan.manualControl";"_OPM";;;;;"%";"0";"Manuell utsignal";;
+;;"_AnalogAirHandlingFan.manualOperation";"_AnalogAirHandlingFan.manualOperation";"_AL5";;;;;"";"";"Handställningslarm";p:C;
+;;"_AnalogObject.operation";"_AnalogObject.operation";"_OP";;;;;"%";"0";"Utsignal";;
+
+;;"_AnalogCirculationPump.run";"_AnalogCirculationPump.run";"_CMD";;;;;"";"";"Startorder";;
+;;"_AnalogCirculationPump.runFeedback";"_AnalogCirculationPump.runFeedback";"_V";;;;;"";"";"Driftindikering";;
+;;"_AnalogCirculationPump.manualSwitch";"_AnalogCirculationPump.manualSwitch";"_AUT";;;;;"";"";"0 = OFF, 1 = ON, 2 = AUT";;
+;;"_AnalogCirculationPump.output";"_AnalogCirculationPump.output";"_OP";;;;;"%";"0";"Utsignal";;
+;;"_AnalogCirculationPump.manualControl";"_AnalogCirculationPump.manualControl";"_OPM";;;;;"%";"0";"Manuell utsignal";;
+;;"_AnalogCirculationPump.test";"_AnalogCirculationPump.test";"_V8";;;;;"";"";"Pumpmotion aktiv";;
+;;"_AnalogCirculationPump.manualOperation";"_AnalogCirculationPump.manualOperation";"_AL5";;;;;"";"";"Handställningslarm";p:C;
+
+;;"_DigitalCirculationPump.run";"_DigitalCirculationPump.run";"_CMD";;;;;"";"";"Startorder";;
+;;"_DigitalCirculationPump.runFeedback";"_DigitalCirculationPump.runFeedback";"_V";;;;;"";"";"Driftindikering";;
+;;"_DigitalCirculationPump.manualSwitch";"_DigitalCirculationPump.manualSwitch";"_AUT";;;;;"";"";"0 = OFF, 1 = ON, 2 = AUT";;
+;;"_DigitalCirculationPump.manualOperation";"_DigitalCirculationPump.manualOperation";"_AL5";;;;;"";"";"Handställningslarm";p:C;
+;;"_DigitalCirculationPump.test";"_DigitalCirculationPump.test";"_V8";;;;;"";"";"Pumpmotion aktiv";;
+
+;;"_DigitalHeatPump.run";"_DigitalHeatPump.run";"_CMD";;;;;"";"";"Startorder";;
+;;"_DigitalHeatPump.runFeedback";"_DigitalHeatPump.runFeedback";"_V";;;;;"";"";"Driftindikering";;
+;;"_DigitalHeatPump.manualSwitch";"_DigitalHeatPump.manualSwitch";"_AUT";;;;;"";"";"0 = OFF, 1 = ON, 2 = AUT";;
+;;"_DigitalHeatPump.manualOperation";"_DigitalHeatPump.manualOperation";"_AL5";;;;;"";"";"Handställningslarm";p:C;
+;;"_DigitalHeatPump.test";"_DigitalHeatPump.test";"_V8";;;;;"";"";"Pumpmotion aktiv";;
+
+;;"_DigitalDamper.servo";"_DigitalDamper.servo";"_CMD";;;;;;;"Startorder";;
+
+;;"_DewPoint.dewPoint";"_DewPoint.dewPoint";"_PV3";;;;;"°C";"0.0";"Daggpunkt";;
+;;"_DewPoint.temp";"_DewPoint.temp";"_PV1";;;;;"°C";"0.0";"Ingångsvärde temperatur";;
+;;"_DewPoint.humidity";"_DewPoint.humidity";"_PV2";;;;;"%rh";"0";"Ingångsvärde fuktighet";;
+
+
+;;"_FireDamper.openFeedback";"_FireDamper.openFeedback";"_V1";;;;;"";"";"Öppetindikering";;
+;;"_FireDamper.closedFeedback";"_FireDamper.closedFeedback";"_V0";;;;;"";"";"Stängtindikering";;
+
+;;"_HeatCoil.run";"_HeatCoil.run";"_CMD";;;;;"";"";"Startorder";;
+;;"_HeatCoil.runFeedback";"_HeatCoil.runFeedback";"_V";;;;;"";"";"Driftindikering";;
+;;"_HeatCoil.manualSwitch";"_HeatCoil.manualSwitch";"_AUT";;;;;"";"";"0 = OFF, 1 = ON, 2 = AUT";;
+
+;;"_HeatCoilPump.run";"_HeatCoilPump.run";"_CMD";;;;;"";"";"Startorder";;
+;;"_HeatCoilPump.runFeedback";"_HeatCoilPump.runFeedback";"_V";;;;;"";"";"Driftindikering";;
+;;"_HeatCoilPump.manualSwitch";"_HeatCoilPump.manualSwitch";"_AUT";;;;;"";"";"0 = OFF, 1 = ON, 2 = AUT";;
+;;"_HeatCoilPump.test";"_HeatCoilPump.test";"_V8";;;;;"";"";"Pumpmotion aktiv";;
+
+;;"_NightCool.active";"_NightCool.active";"_V";;;;;"";"";"Nattkyla aktiv";;
+;;"_NightCool.BlockHeat";"_NightCool.BlockHeat";"_V3";;;;;"";"";"Nattkylablockering aktiv";;
+
+;;"_OverrideSwitch.allowStart";"_OverrideSwitch.allowStart";"_V";;;;;"";"";"Tillåt start";;
+;;"_OverrideSwitch.override";"_OverrideSwitch.override";"_AUT";;;;;"";"";"0 = OFF, 1 = ON, 2 = AUT";;
+
+;;"_ScheduleWeekdays.operation";"_ScheduleWeekdays.operation";"_CMD";;;;;"";"";"Tidkanal aktiv";;
+;;"_ScheduleWeekdays.manualSwitch";"_ScheduleWeekdays.manualSwitch";"_AUT";;;;;"";"";"0 = OFF, 1 = ON, 2 = AUT";;
+;;"_ScheduleWeekdays.manualOperation";"_ScheduleWeekdays.manualOperation";"_AL5";;;;;"";"";"Handställningslarm";p:C;
+
+;;"_SingleFan.runFeedback";"_SingleFan.runFeedback";"_V";;;;;"";"";"Driftindikering";;
+;;"_SingleFan.run";"_SingleFan.run";"_CMD";;;;;"";"";"Startorder";;
+;;"_SingleFan.manualSwitch";"_SingleFan.manualSwitch";"_AUT";;;;;"";"";"0 = OFF, 1 = ON, 2 = AUT";;
+;;"_SingleFan.manualOperation";"_SingleFan.manualOperation";"_AL5";;;;;"";"";"Handställningslarm";p:C;
+
+
+;;"_AnalogValve.operation";"_AnalogValve.operation";"_OP";;;;;"%";"0";"Utsignal";;
+;;"_AnalogValve.manualControl";"_AnalogValve.manualControl";"_OPM";;;;;"%";"0";"Manuell utsignal";;
+;;"_AnalogValve.manualSwitch";"_AnalogValve.manualSwitch";"_AUT";;;;;"";"";"0 = OFF, 1 = ON, 2 = AUT";;
+
+;;"_SensorTemperature.sensorValue";"_SensorTemperature.sensorValue";"_PV";;;;;"°C";"0.0";"Mätvärde";;
+;;"_SensorTemperature.manual";"_SensorTemperature.manual";"_AUT";;;;;"";"";"0 = OFF, 1 = ON, 2 = AUT";;
+;;"_SensorTemperature.error";"_SensorTemperature.error";"_AL4";;;;;;;"Givarfel";p:B;
+;;"_SensorTemperature.manualControl";"_SensorTemperature.manualControl";"_OPM";;;;;"°C";"0.0";"Manuellt värde";;
+
+;;"_SensorPressure.sensorValue";"_SensorPressure.sensorValue";"_PV";;;;;"pa";"0";"Mätvärde";;
+;;"_SensorPressure.manual";"_SensorPressure.manual";"_AUT";;;;;"";"";"0 = OFF, 1 = ON, 2 = AUT";;
+;;"_SensorPressure.error";"_SensorPressure.error";"_AL4";;;;;;;"Givarfel";p:B;
+;;"_SensorPressure.manualControl";"_SensorPressure.manualControl";"_OPM";;;;;"pa";"0";"Manuellt värde";;
+
+;;"_sensorHumidity.sensorValue";"_sensorHumidity.sensorValue";"_PV";;;;;"%rh";"0";"Mätvärde";;
+;;"_sensorHumidity.manual";"_sensorHumidity.manual";"_AUT";;;;;"";"";"0 = OFF, 1 = ON, 2 = AUT";;
+;;"_sensorHumidity.error";"_sensorHumidity.error";"_AL4";;;;;;;"Givarfel";p:B;
+;;"_sensorHumidity.manualControl";"_sensorHumidity.manualControl";"_OPM";;;;;"%rh";"0";"Manuellt värde";;
+
+;;"_sensorCarbondioxide.sensorValue";"_sensorCarbondioxide.sensorValue";"_PV";;;;;"ppm";"0";"Mätvärde";;
+;;"_sensorCarbondioxide.manual";"_sensorCarbondioxide.manual";"_AUT";;;;;"";"";"0 = OFF, 1 = ON, 2 = AUT";;
+;;"_sensorCarbondioxide.error";"_sensorCarbondioxide.error";"_AL4";;;;;;;"Givarfel";p:B;
+;;"_sensorCarbondioxide.manualControl";"_sensorCarbondioxide.manualControl";"_OPM";;;;;"ppm";"0";"Manuellt värde";;
+
+;;"_SensorLitresec.sensorValue";"_SensorLitresec.sensorValue";"_PV";;;;;"pa";"0";"Mätvärde";;
+;;"_SensorLitresec.manual";"_SensorLitresec.manual";"_AUT";;;;;"";"";"0 = OFF, 1 = ON, 2 = AUT";;
+;;"_SensorLitresec.error";"_SensorLitresec.error";"_AL4";;;;;;;"Givarfel";p:B;
+;;"_SensorLitresec.manualControl";"_SensorLitresec.manualControl";"_OPM";;;;;"pa";"0";"Manuellt värde";;
+
+;;"_EnergyControl.operation";"_EnergyControl.operation";"_OP";;;;;"%";"0";"Utsignal effektnedstyrning";;
+;;"_EnergyControl.effectLimit";"_EnergyControl.effectLimit";"_PV1";;;;;"kw";"0.0";"Aktuell effektgräns ";;
+
+;;"_EnergyControlModule.energySignal";"_EnergyControlModule.energySignal";"_OP";;;;;"%";"";"Effektnedstyrningssignal";;
+;;"_EnergyControlModule.switch";"_EnergyControlModule.switch";"_MCMD2";;;;;"";"";"Aktivering effektnedstyrning";;
+;;"_EnergyControlModule.Active";"_EnergyControlModule.Active";"_V1";;;;;"";"";"Effektnedstyrning aktiv";;
+;;"_EnergyControlModule.output";"_EnergyControlModule.output";"_PV";;;;;"°C";"0.0";"Förskjutning";;
+
+
+;;"_OperationTime.reset";"_OperationTime.reset";"_RST";;;;;"";"";"Återställning drifttid";;
+;;"_OperationTime.totalOperationTime";"_OperationTime.totalOperationTime";"_PV5";;;;;"tim";"0";"Drifttid";;
+;;"_OperationTime.totalStarts";"_OperationTime.totalStarts";"_PV6";;;;;"st";"0";"Antal starter";;
+
+;;"_HeatExchangerEfficiency.efficiency";"_HeatExchangerEfficiency.efficiency";"_PV1";;;;;"%";"0";"Verkningsgrad";;
+;;"_HeatExchangerEfficiencyConfig.alarmdelayU";"_HeatExchangerEfficiencyConfig.alarmdelayU";"_AD";;;;;"s";"0";"Larmfördröjning låg verkningsgrad";;
+;;"_HeatExchangerEfficiencyConfig.alarmLimit";"_HeatExchangerEfficiencyConfig.alarmLimit";"_ADL1";;;;;"%";"0";"Larmgräns låg verkningsgrad";;
+;;"_HeatExchangerEfficiencyConfig.controlLimit";"_HeatExchangerEfficiencyConfig.controlLimit";"_ADL2";;;;;"%";"0";"Blockering larm vid utsignal under";;
+
+
+
+;;"_koldioxid";"_koldioxid";"";;;;;"ppm";"";"";;
+;;"_procent";"_procent";"";;;;;"%";"";"";;
+;;"_pressure";"_pressure";"";;;;;"pa";"";"";;
+;;"_temperature";"_temperature";"";;;;;"°C";"0.0";"";;
+;;"_humidity";"_humidity";"";;;;;"RH%";"0";"";;
+;;"_signal";"_signal";"";;;;;"%";"0";"";;
+;;"_litresec";"_litresec";"";;;;;"l/s";"0";"";;
+
+;;"_seconds";"_seconds";"";;;;;"sek";"0";"";;
+;;"_minutes";"_minutes";"";;;;;"min";"0";"";;
+;;"_hours";"_hours";"";;;;;"tim";"0";"";;
+
+;;"_import";"_import";"";;;;;"";"";"";;
+
+
+
+;;"_CMD";"_CMD";"_CMD";;;;;"";"";"";;
+;;"_TXT";"_TXT";"_TXT";;;;;"";"";"";;
+;;"_TXT1";"_TXT1";"_TXT1";;;;;"";"";"";;
+;;"_V";"_V";"_V";;;;;"";"";"";;
+;;"_V0";"_V0";"_V0";;;;;"";"";"";;
+;;"_V1";"_V1";"_V1";;;;;"";"";"";;
+;;"_P";"_P";"_P";;;;;"";"";"";;
+;;"_I";"_I";"_I";;;;;"";"";"";;
+
+
+
+
+;;"_ClassA";"_ClassA";"";;;;;"";"";"";p:A;
+;;"_ClassB";"_ClassB";"";;;;;"";"";"";p:B;
+;;"_ClassC";"_ClassC";"";;;;;"";"";"";p:C;
+
+;;"_Class41";"_Class41";"";;;;;"";"";"";p:41;
+
+
+
+
+inofficella
+;;"_ConditionOutdoorValve.odtLimit";"_ConditionOutdoorValve.odtLimit";"_SP1";;;;;"°C";"0.0";"Startgräns utetemp.";;
+;;"_ConditionOutdoorValve.operationLimitStart";"_ConditionOutdoorValve.operationLimitStart";"_SP2";;;;;"%";"0";"Startgräns ventilläge";;
+;;"_ConditionOutdoorValve.operationLimitStop";"_ConditionOutdoorValve.operationLimitStop";"_SP3";;;;;"%";"0";"Stoppgräns ventilläge";;
+
+
+;;"_HeatingPeriod.startMonth";"_HeatingPeriod.startMonth";"_SP1";;;;;"";"0";"Startmånad för start av blockering värmeperiod";;
+;;"_HeatingPeriod.stopMonth";"_HeatingPeriod.stopMonth";"_SP2";;;;;"";"0";"Stoppmånad för stopp av blockering värmeperiod";;
+;;"_HeatingPeriod.CurrentMonth";"_HeatingPeriod.CurrentMonth";"_TXT1";;;;;"";"";"Aktuell månad";;
+;;"_HeatingPeriod.blockHeatingActive";"_HeatingPeriod.blockHeatingActive";"_V";;;;;"";"";"Indikering aktiv värmeperiod blockering";;
+
+Värmemängdsmätare
+;;"_HeatMeter.volume";"_HeatMeter.volume";"_PV1";;;;;"m3";"0.000";"Volym ";;
+;;"_HeatMeter.flow";"_HeatMeter.flow";"_PV2";;;;;"m3/h";"0.000";"Flöde ";;
+;;"_HeatMeter.energy";"_HeatMeter.energy";"_PV3";;;;;"kWh";"0.000";"Energi ";;
+;;"_HeatMeter.power";"_HeatMeter.power";"_PV4";;;;;"kW";"0.0";"Effekt";;
+;;"_HeatMeter.diffTemp";"_HeatMeter.diffTemp";"_PV5";;;;;"°C";"0.0";"Temperatur differens";;
+;;"_HeatMeter.forwardTemp";"_HeatMeter.forwardTemp";"_PV6";;;;;"°C";"0.0";"Temperatur framledning";;
+;;"_HeatMeter.returnTemp";"_HeatMeter.returnTemp";"_PV7";;;;;"°C";"0.0";"Temperatur returledning";;
+;;"_HeatMeter.udiSekdId";"_HeatMeter.udiSekdId";"_PV9";;;;;"";"0";"Sekundärid";;
+
+;;"_VolumeMeter.volume";"_VolumeMeter.volume";"_PV1";;;;;"m3";"0.000";"Volym ";;
+;;"_VolumeMeter.flow";"_VolumeMeter.flow";"_PV2";;;;;"m3/h";"0.000";"Flöde ";;
+;;"_VolumeMeter.udiSekdId";"_VolumeMeter.udiSekdId";"_PV9";;;;;"";"0";"Sekundärid";;
+
+
+
